@@ -3,30 +3,31 @@
    <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="300dp"
-    android:layout_height="380dp"
+    android:layout_height="400dp"
     android:layout_marginTop="20dp"
-   android:layout_marginLeft="20dp"
     >
     <LinearLayout
         android:id="@+id/ll_real_name_authentication"
         android:layout_width="300dp"
-        android:layout_height="320dp"
+        android:layout_height="340dp"
         android:orientation="vertical"
         android:background="@drawable/dialog_bg"
         >
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:background="@drawable/dialog_img_bg"
-            />
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/icon_a"
+        />
+
+
         <TextView
 
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="40dp"
             android:gravity="center"
             android:text="实名认证"
             android:textColor="#0088FF"
